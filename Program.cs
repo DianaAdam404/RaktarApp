@@ -49,3 +49,5 @@ foreach (Termek termek in termekek)
 }
 Console.WriteLine();
 int teljesertek = termekek.Sum(t => t.ErtekSzamitas(10));
+Console.WriteLine($"A teljes raktarkeszlet osszelrtlke:{teljesertek:N0} FT");
+Console.WriteLine($"Oszzes termek szama: {Termek.OsszesTermekSzama}db");
