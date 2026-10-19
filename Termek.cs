@@ -46,6 +46,5 @@ namespace RaktarApp
         {
             return  $"Termék [{Cikkszam}] | Egységár: [{Alapar}] Ft";
         }
-
     }
 }
